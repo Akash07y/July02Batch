@@ -21,11 +21,11 @@ public class Base {
 		return driver ;
 	}
 	
-	public static WebDriver openOperaBrowser() {
-		System.setProperty("webdriver.opera.driver", "C:\\Users\\akash\\geckodriver-v0.31.0-win64\\operadriver.exe");
-		WebDriver driver = new OperaDriver();
-		return driver ;
-	}
+//	public static WebDriver openOperaBrowser() {
+//		System.setProperty("webdriver.opera.driver", "C:\\Users\\akash\\geckodriver-v0.31.0-win64\\operadriver.exe");
+//		WebDriver driver = new OperaDriver();
+//		return driver ;
+//	}
 	
 	
 }
