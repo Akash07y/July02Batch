@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="2" failed="6" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-23T08:52:02 IST" name="RegressionTest" finished-at="2022-10-23T08:52:40 IST" duration-ms="37903">
+    <groups>
+    </groups>
+    <test started-at="2022-10-23T08:52:02 IST" name="ChromeTest" finished-at="2022-10-23T08:52:20 IST" duration-ms="17728">
+      <class name="testPack.VerifyRoomsPage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testPack.VerifyRoomsPage@50a638b5]" started-at="2022-10-23T08:52:03 IST" name="launchBrowser" finished-at="2022-10-23T08:52:05 IST" duration-ms="1074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="creatPOMObjects()[pri:0, instance:testPack.VerifyRoomsPage@50a638b5]" started-at="2022-10-23T08:52:05 IST" name="creatPOMObjects" finished-at="2022-10-23T08:52:05 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatPOMObjects -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:testPack.VerifyRoomsPage@50a638b5]" started-at="2022-10-23T08:52:05 IST" name="openRoomsPage" finished-at="2022-10-23T08:52:09 IST" duration-ms="3960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyContactToHelpCenter()[pri:0, instance:testPack.VerifyRoomsPage@50a638b5]" started-at="2022-10-23T08:52:09 IST" name="verifyContactToHelpCenter" finished-at="2022-10-23T08:52:10 IST" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactToHelpCenter -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:testPack.VerifyRoomsPage@50a638b5]" started-at="2022-10-23T08:52:10 IST" name="logOutFromApplication" finished-at="2022-10-23T08:52:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:testPack.VerifyRoomsPage@50a638b5]" started-at="2022-10-23T08:52:10 IST" name="openRoomsPage" finished-at="2022-10-23T08:52:12 IST" duration-ms="2268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyReturnToMessangerButton()[pri:0, instance:testPack.VerifyRoomsPage@50a638b5]" started-at="2022-10-23T08:52:12 IST" name="verifyReturnToMessangerButton" finished-at="2022-10-23T08:52:15 IST" duration-ms="2865" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://www.messenger.com] but found [https://www.messenger.com/],
+expected [Messenge] but found [Messenger]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://www.messenger.com] but found [https://www.messenger.com/],
+expected [Messenge] but found [Messenger]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testPack.VerifyRoomsPage.verifyReturnToMessangerButton(VerifyRoomsPage.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReturnToMessangerButton -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:testPack.VerifyRoomsPage@50a638b5]" started-at="2022-10-23T08:52:15 IST" name="logOutFromApplication" finished-at="2022-10-23T08:52:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="clearObjet()[pri:0, instance:testPack.VerifyRoomsPage@50a638b5]" started-at="2022-10-23T08:52:15 IST" name="clearObjet" finished-at="2022-10-23T08:52:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjet -->
+        <test-method is-config="true" signature="cloaseBrowser()[pri:0, instance:testPack.VerifyRoomsPage@50a638b5]" started-at="2022-10-23T08:52:17 IST" name="cloaseBrowser" finished-at="2022-10-23T08:52:20 IST" duration-ms="2439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cloaseBrowser -->
+      </class> <!-- testPack.VerifyRoomsPage -->
+      <class name="testPack.VerifyHomePage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testPack.VerifyHomePage@15c43bd9]" started-at="2022-10-23T08:52:02 IST" name="launchBrowser" finished-at="2022-10-23T08:52:03 IST" duration-ms="1490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="creatPOMObjects()[pri:0, instance:testPack.VerifyHomePage@15c43bd9]" started-at="2022-10-23T08:52:05 IST" name="creatPOMObjects" finished-at="2022-10-23T08:52:05 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatPOMObjects -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:testPack.VerifyHomePage@15c43bd9]" started-at="2022-10-23T08:52:05 IST" name="openRoomsPage" finished-at="2022-10-23T08:52:08 IST" duration-ms="3629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyContactToHelpCenter()[pri:0, instance:testPack.VerifyHomePage@15c43bd9]" started-at="2022-10-23T08:52:08 IST" name="verifyContactToHelpCenter" finished-at="2022-10-23T08:52:09 IST" duration-ms="911" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://www.messenger.com/hel] but found [https://www.messenger.com/help],
+expected [Messenger Help Centr] but found [Messenger Help Centre]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://www.messenger.com/hel] but found [https://www.messenger.com/help],
+expected [Messenger Help Centr] but found [Messenger Help Centre]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testPack.VerifyHomePage.verifyContactToHelpCenter(VerifyHomePage.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactToHelpCenter -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:testPack.VerifyHomePage@15c43bd9]" started-at="2022-10-23T08:52:09 IST" name="logOutFromApplication" finished-at="2022-10-23T08:52:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:testPack.VerifyHomePage@15c43bd9]" started-at="2022-10-23T08:52:09 IST" name="openRoomsPage" finished-at="2022-10-23T08:52:12 IST" duration-ms="2808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyReturnToMessangerButton()[pri:0, instance:testPack.VerifyHomePage@15c43bd9]" started-at="2022-10-23T08:52:12 IST" name="verifyReturnToMessangerButton" finished-at="2022-10-23T08:52:15 IST" duration-ms="2828" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://www.messenger.com] but found [https://www.messenger.com/],
+expected [Messenge] but found [Messenger]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://www.messenger.com] but found [https://www.messenger.com/],
+expected [Messenge] but found [Messenger]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testPack.VerifyHomePage.verifyReturnToMessangerButton(VerifyHomePage.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReturnToMessangerButton -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:testPack.VerifyHomePage@15c43bd9]" started-at="2022-10-23T08:52:15 IST" name="logOutFromApplication" finished-at="2022-10-23T08:52:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method signature="verifyContactToHelpCenter12345()[pri:0, instance:testPack.VerifyHomePage@15c43bd9]" started-at="2022-10-23T08:52:15 IST" name="verifyContactToHelpCenter12345" finished-at="2022-10-23T08:52:15 IST" depends-on-methods="testPack.VerifyHomePage.verifyContactToHelpCenter" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method VerifyHomePage.verifyContactToHelpCenter12345()[pri:0, instance:testPack.VerifyHomePage@15c43bd9] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method VerifyHomePage.verifyContactToHelpCenter12345()[pri:0, instance:testPack.VerifyHomePage@15c43bd9] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactToHelpCenter12345 -->
+        <test-method is-config="true" signature="clearObjet()[pri:0, instance:testPack.VerifyHomePage@15c43bd9]" started-at="2022-10-23T08:52:15 IST" name="clearObjet" finished-at="2022-10-23T08:52:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjet -->
+        <test-method is-config="true" signature="cloaseBrowser()[pri:0, instance:testPack.VerifyHomePage@15c43bd9]" started-at="2022-10-23T08:52:15 IST" name="cloaseBrowser" finished-at="2022-10-23T08:52:17 IST" duration-ms="2433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cloaseBrowser -->
+      </class> <!-- testPack.VerifyHomePage -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-10-23T08:52:20 IST" name="FirefoxTest" finished-at="2022-10-23T08:52:40 IST" duration-ms="20120">
+      <class name="testPack.VerifyRoomsPage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testPack.VerifyRoomsPage@32eff876]" started-at="2022-10-23T08:52:24 IST" name="launchBrowser" finished-at="2022-10-23T08:52:27 IST" duration-ms="3469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="creatPOMObjects()[pri:0, instance:testPack.VerifyRoomsPage@32eff876]" started-at="2022-10-23T08:52:27 IST" name="creatPOMObjects" finished-at="2022-10-23T08:52:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatPOMObjects -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:testPack.VerifyRoomsPage@32eff876]" started-at="2022-10-23T08:52:27 IST" name="openRoomsPage" finished-at="2022-10-23T08:52:31 IST" duration-ms="3826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyContactToHelpCenter()[pri:0, instance:testPack.VerifyRoomsPage@32eff876]" started-at="2022-10-23T08:52:31 IST" name="verifyContactToHelpCenter" finished-at="2022-10-23T08:52:32 IST" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactToHelpCenter -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:testPack.VerifyRoomsPage@32eff876]" started-at="2022-10-23T08:52:32 IST" name="logOutFromApplication" finished-at="2022-10-23T08:52:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:testPack.VerifyRoomsPage@32eff876]" started-at="2022-10-23T08:52:32 IST" name="openRoomsPage" finished-at="2022-10-23T08:52:34 IST" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyReturnToMessangerButton()[pri:0, instance:testPack.VerifyRoomsPage@32eff876]" started-at="2022-10-23T08:52:34 IST" name="verifyReturnToMessangerButton" finished-at="2022-10-23T08:52:37 IST" duration-ms="3261" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://www.messenger.com] but found [https://www.messenger.com/],
+expected [Messenge] but found [Messenger]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://www.messenger.com] but found [https://www.messenger.com/],
+expected [Messenge] but found [Messenger]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testPack.VerifyRoomsPage.verifyReturnToMessangerButton(VerifyRoomsPage.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReturnToMessangerButton -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:testPack.VerifyRoomsPage@32eff876]" started-at="2022-10-23T08:52:37 IST" name="logOutFromApplication" finished-at="2022-10-23T08:52:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="clearObjet()[pri:0, instance:testPack.VerifyRoomsPage@32eff876]" started-at="2022-10-23T08:52:37 IST" name="clearObjet" finished-at="2022-10-23T08:52:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjet -->
+        <test-method is-config="true" signature="cloaseBrowser()[pri:0, instance:testPack.VerifyRoomsPage@32eff876]" started-at="2022-10-23T08:52:39 IST" name="cloaseBrowser" finished-at="2022-10-23T08:52:40 IST" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cloaseBrowser -->
+      </class> <!-- testPack.VerifyRoomsPage -->
+      <class name="testPack.VerifyHomePage">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testPack.VerifyHomePage@8dbdac1]" started-at="2022-10-23T08:52:20 IST" name="launchBrowser" finished-at="2022-10-23T08:52:24 IST" duration-ms="3876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="creatPOMObjects()[pri:0, instance:testPack.VerifyHomePage@8dbdac1]" started-at="2022-10-23T08:52:27 IST" name="creatPOMObjects" finished-at="2022-10-23T08:52:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatPOMObjects -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:testPack.VerifyHomePage@8dbdac1]" started-at="2022-10-23T08:52:27 IST" name="openRoomsPage" finished-at="2022-10-23T08:52:32 IST" duration-ms="4755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method signature="verifyContactToHelpCenter()[pri:0, instance:testPack.VerifyHomePage@8dbdac1]" started-at="2022-10-23T08:52:32 IST" name="verifyContactToHelpCenter" finished-at="2022-10-23T08:52:33 IST" duration-ms="1045" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://www.messenger.com/hel] but found [https://www.messenger.com/help],
+expected [Messenger Help Centr] but found [Messenger Help Centre]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://www.messenger.com/hel] but found [https://www.messenger.com/help],
+expected [Messenger Help Centr] but found [Messenger Help Centre]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testPack.VerifyHomePage.verifyContactToHelpCenter(VerifyHomePage.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactToHelpCenter -->
+        <test-method is-config="true" signature="openRoomsPage()[pri:0, instance:testPack.VerifyHomePage@8dbdac1]" started-at="2022-10-23T08:52:33 IST" name="openRoomsPage" finished-at="2022-10-23T08:52:35 IST" duration-ms="2397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRoomsPage -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:testPack.VerifyHomePage@8dbdac1]" started-at="2022-10-23T08:52:33 IST" name="logOutFromApplication" finished-at="2022-10-23T08:52:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method signature="verifyReturnToMessangerButton()[pri:0, instance:testPack.VerifyHomePage@8dbdac1]" started-at="2022-10-23T08:52:35 IST" name="verifyReturnToMessangerButton" finished-at="2022-10-23T08:52:38 IST" duration-ms="2977" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://www.messenger.com] but found [https://www.messenger.com/],
+expected [Messenge] but found [Messenger]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://www.messenger.com] but found [https://www.messenger.com/],
+expected [Messenge] but found [Messenger]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testPack.VerifyHomePage.verifyReturnToMessangerButton(VerifyHomePage.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReturnToMessangerButton -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:testPack.VerifyHomePage@8dbdac1]" started-at="2022-10-23T08:52:38 IST" name="logOutFromApplication" finished-at="2022-10-23T08:52:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method signature="verifyContactToHelpCenter12345()[pri:0, instance:testPack.VerifyHomePage@8dbdac1]" started-at="2022-10-23T08:52:38 IST" name="verifyContactToHelpCenter12345" finished-at="2022-10-23T08:52:38 IST" depends-on-methods="testPack.VerifyHomePage.verifyContactToHelpCenter" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method VerifyHomePage.verifyContactToHelpCenter12345()[pri:0, instance:testPack.VerifyHomePage@8dbdac1] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method VerifyHomePage.verifyContactToHelpCenter12345()[pri:0, instance:testPack.VerifyHomePage@8dbdac1] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactToHelpCenter12345 -->
+        <test-method is-config="true" signature="cloaseBrowser()[pri:0, instance:testPack.VerifyHomePage@8dbdac1]" started-at="2022-10-23T08:52:38 IST" name="cloaseBrowser" finished-at="2022-10-23T08:52:39 IST" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cloaseBrowser -->
+        <test-method is-config="true" signature="clearObjet()[pri:0, instance:testPack.VerifyHomePage@8dbdac1]" started-at="2022-10-23T08:52:38 IST" name="clearObjet" finished-at="2022-10-23T08:52:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObjet -->
+      </class> <!-- testPack.VerifyHomePage -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- RegressionTest -->
+</testng-results>
