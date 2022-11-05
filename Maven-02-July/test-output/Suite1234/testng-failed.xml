@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1234]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1234(failed)">
+    <classes>
+      <class name="testPack.VerifyRoomsPage">
+        <methods>
+          <include name="openRoomsPage"/>
+          <include name="cloaseBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="verifyContactToHelpCenter"/>
+          <include name="verifyReturnToMessangerButton"/>
+          <include name="logOutFromApplication"/>
+        </methods>
+      </class> <!-- testPack.VerifyRoomsPage -->
+      <class name="testPack.TestNGClass">
+        <methods>
+          <include name="test4"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="test3"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testPack.TestNGClass -->
+    </classes>
+  </test> <!-- Test1234(failed) -->
+</suite> <!-- Failed suite [Suite1234] -->
